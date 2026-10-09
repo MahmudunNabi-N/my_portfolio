@@ -5,14 +5,14 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-
+ const toRotate = ["Web Developer", "Web Designer"];
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300);
 
-  const toRotate = ["Web Developer", "Web Designer"];
+ 
   const period = 2000;
 
   useEffect(() => {
@@ -38,7 +38,7 @@ export const Banner = () => {
     }, delta);
 
     return () => clearTimeout(ticker);
-  }, [text, delta, isDeleting, loopNum, toRotate]);
+  }, [text, delta, isDeleting, loopNum]);
 
   return (
     <section className="banner" id="home">
