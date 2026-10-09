@@ -24,7 +24,7 @@ export const Projects = () => {
     },
     {
       title: "Dev-Conf",
-      description: "A modern and responsive developer conference landing page designed to showcase event information, speakers, schedules, and pricing.",
+      description: "A modern developer conference landing page designed to showcase event information, speakers, schedules, and pricing.",
       imgUrl: projImg3,
     },
     {

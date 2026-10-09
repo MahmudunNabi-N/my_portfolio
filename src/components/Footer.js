@@ -17,7 +17,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/mahmudun-nabi-nahid05/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://www.facebook.com/mahmudun.nabi.nahid.2006/"><img src={navIcon2} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2026. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
