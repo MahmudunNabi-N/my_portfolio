@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/Glossy Blue and White MN Ribbon Logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon3 from '../assets/img/GitHub_Invertocat_White.png'
 
 
 export const Footer = () => {
@@ -16,6 +17,7 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/mahmudun-nabi-nahid05/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://www.facebook.com/mahmudun.nabi.nahid.2006/"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://www.facebook.com/mahmudun.nabi.nahid.2006/"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2026. All Rights Reserved</p>
           </Col>
